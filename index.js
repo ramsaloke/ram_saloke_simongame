@@ -95,7 +95,7 @@ function ButtonClick(event)
  
      setTimeout(function(){ 
       document.body.style.backgroundColor = "";
-      document.querySelector("h1").textContent="Press A key to start again!";},2000); 
+      document.querySelector("h1").textContent="Press Any key to start again!";},2000); 
  }
 
 
@@ -105,3 +105,25 @@ function playSound(name)
 var audio=new Audio("sounds/"+name+".wav");
 audio.play();
 }
+
+// Get the button and modal elements
+const howToPlayBtn = document.getElementById("howToPlayBtn");
+const modal = document.getElementById("howToPlayModal");
+const closeBtn = document.querySelector(".close");
+
+// Show the modal when the button is clicked
+howToPlayBtn.addEventListener("click", () => {
+    modal.style.display = "block";
+});
+
+// Close the modal when the close button is clicked
+closeBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+});
+
+// Close the modal when clicking outside the modal content
+window.addEventListener("click", (event) => {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+});
