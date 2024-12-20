@@ -18,7 +18,11 @@ Start: Press any key to begin.
 Watch: The game shows a sequence of colors.
 Repeat: Click the colors in the same order.
 Advance: The sequence grows with each level.
+<<<<<<< HEAD
 Game Over: Press Any key to restart.
+=======
+Game Over: Click the wrong color to restart.
+>>>>>>> eb181585a79084926ee18fcc5985b532a962c602
 
 📂 Project Files
 index.html – Main HTML file
