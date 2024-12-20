@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // // step1
 // var gamepattern=[];
 
@@ -236,7 +236,7 @@ function animatePress(color) {
 }
 
 //  Get the button and modal elements
-=======
+
 // step1
 var gamepattern=[];
 
@@ -346,7 +346,7 @@ audio.play();
 }
 
 // Get the button and modal elements
->>>>>>> eb181585a79084926ee18fcc5985b532a962c602
+
 const howToPlayBtn = document.getElementById("howToPlayBtn");
 const modal = document.getElementById("howToPlayModal");
 const closeBtn = document.querySelector(".close");
@@ -366,9 +366,6 @@ window.addEventListener("click", (event) => {
     if (event.target === modal) {
         modal.style.display = "none";
     }
-<<<<<<< HEAD
   }
-  )
-=======
-});
->>>>>>> eb181585a79084926ee18fcc5985b532a962c602
+);
+
