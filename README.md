@@ -4,7 +4,7 @@
 A fun memory-based game inspired by the classic Simon Game. Watch the pattern and repeat it correctly to advance through levels!
 
 🚀 Demo
-Play the game here (Add your live link if hosted).
+Play the game here (wait dude its coming).
 
 🛠️ Technologies Used
 HTML for structure
